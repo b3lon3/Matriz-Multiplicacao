@@ -1,3 +1,5 @@
+#feito para botoes e camisas, mas input ta aberto, funf com qqr couisa
+
 X = int(input("Numero de linhas da matriz botoes: "))
 Y = int(input("Numero de colunas da matriz camisas:"))
 Z = int(input("Numero de coluns da matriz botoes / Numero de linhas da matriz camisas:"))
