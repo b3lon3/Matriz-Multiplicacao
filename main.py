@@ -1,5 +1,4 @@
-#feito para botoes e camisas, mas input ta aberto, funf com qqr couisa
-
+#atividade tania multiplicacao de matrizes
 X = int(input("Numero de linhas da matriz botoes: "))
 Y = int(input("Numero de colunas da matriz camisas:"))
 Z = int(input("Numero de coluns da matriz botoes / Numero de linhas da matriz camisas:"))
@@ -26,9 +25,16 @@ for i in range(X):
         for k in range(Z):
             total[i][j] = botoes[i][j] + camisas[i][j]
 
-print("Total de botoes:")
+print("Matriz botoes :")
+
+total_botoes = 0
+
 for i in range(X):
     print()
     for j in range(Y):
         print(format(total[i][j], "<3"), end = "")
+        total_botoes += total[i][j]
     print()
+
+
+print('Total de botoes: ', total_botoes)
